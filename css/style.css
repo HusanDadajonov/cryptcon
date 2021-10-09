@@ -292,7 +292,7 @@ ul li{
   background: #16d5ff;
   top: 70px; 
   box-shadow:none;
-  transition: height 1s ease,padding 1s ease,box-shadow 1s ease, visibility 0.8s ease;
+  transition: height 0.7s ease,padding 0.7s ease,box-shadow 0.7s ease;
 }
 .open-menu{
   height: 100%;
