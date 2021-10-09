@@ -290,13 +290,13 @@ ul li{
   z-index: 12312;
   padding-top: 10px;
   background: #16d5ff;
-  bottom: 0;
+  top: 70px; 
   box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 30%);
   transition: height 0.3s ease,opacity 0.4s ease;
 }
 .open-menu{
   opacity:1;
-  height: 82%;
+  height: 100%;
 }
 .menu-page__list {
   padding: 0;
