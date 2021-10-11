@@ -771,7 +771,7 @@ ul li{
 
 .our-team {
   padding-top: 100px;
-  padding-bottom: 5px;
+  padding-bottom: 55px;
 }
 .our-team__small-title {
   color: #16d5ff;
@@ -895,5 +895,65 @@ ul li{
     margin-bottom: 10px;
   }
 }
+
+
+.token {
+  padding: 100px;
+  background-color: #f2f8fe;
+  background-image: url("https://themes.templatescoder.com/crypton/html/demo/1-0/02-Light-Theme/images/tokensale.svg");
+  background-attachment: fixed;
+  background-position: 50% -17.2px;
+}
+.token__small-title {
+  color: #16d5ff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.token__title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #111;
+}
+.token__desc {
+  color: #999;
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.token__list {
+  padding: 0;
+  margin: 0;
+}
+.token__item{
+  margin-bottom: 7px;
+}
+.token__item::before{
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.token__item:nth-child(1)::before{
+  background: #f85d77;
+}
+.token__item:nth-child(2)::before{
+  background: #5ad6f8;
+}
+.token__item:nth-child(3)::before{
+  background: #f8c04e;
+}
+.token__item:nth-child(4)::before{
+  background: #ac56f7;
+}
+.token__item:nth-child(5)::before{
+  background: #61f89f;
+}
+
 
 
