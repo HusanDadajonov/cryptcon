@@ -202,6 +202,7 @@ ul li{
   font-family:'Poppins', sans-serif;
   letter-spacing: 1px;
   border-radius: 5px;
+  text-transform: uppercase;
   transition: transform 0.4s ease;
 }
 .sign-btn:hover{
@@ -1111,5 +1112,47 @@ ul li{
 @media screen and (max-width:992px){
   .our-blog__list{
     justify-content: center;
+  }
+}
+
+.ico-apps-btn{
+  margin-top: 30px;
+}
+.ico-apps {
+  background-color: #f2f8fe;
+  padding-top: 100px;
+}
+.ico-apps__small-title {
+  color: #16d5ff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.ico-apps-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #111;
+}
+.ico-apps__desc {
+  color: #999;
+  max-width: 580px;
+  margin: 0;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.ico-apps__item p{
+  color: #999;
+  font-size: 14px;
+}
+@media screen and (max-width:992px){
+  .ico-apps__row{
+    flex-direction: column-reverse !important;
+  }
+  .ico-apps__desc{
+    max-width: 100%;
+  }
+  .ico-apps-btn{
+    margin-bottom: 60px;
   }
 }
